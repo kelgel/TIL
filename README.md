@@ -32,7 +32,7 @@ My main goal is to build a strong, consistent learning habit while advancing my 
 ## 🔗 Table of Contents
 
 - [2025-06-08 My First TIL](study-notes/2024-06-08-first-til.md)
-- [2025-06-09 DB Modeling](study-notes/study-notes/2024-06-09-DBModeling-ScreenSpecification.md)
+- [2025-06-09 DB Modeling](study-notes/2024-06-09-DBModeling-ScreenSpecification.md)
 - (More to come!)
 
 ---
