@@ -1,4 +1,4 @@
-# 2025-06-16 Board Read, Delete, and Update in Spring
+# 2025-06-17 Board Read, Delete, and Update in Spring
 
 ## What I did today
 - Participate in a team project to make a website and got a role to make a board
