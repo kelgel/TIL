@@ -1,4 +1,4 @@
-# 2025-06-23 QnA Board Update and Create Feature
+# 2025-06-23 QnA Board Search Feature
 
 ## What I Did Today
 
