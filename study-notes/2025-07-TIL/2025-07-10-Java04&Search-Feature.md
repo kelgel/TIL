@@ -28,6 +28,29 @@
 - do-while: Use when at least one execution is required
 - Be careful where you initialize variables in loops
 
+- ### 📘 Thymeleaf Basics
+    - ✅ 1. ${...} – Expression Syntax    
+    Used to access model attributes from the Spring controller  
+    `Example: ${book.title} → accesses title from the book object in the model`
+
+    - ✅ 2. <th:block> – Logic Block (Not Rendered)     
+    Acts as a logical wrapper that does not appear in HTML output      
+    Used for conditional display or grouping elements
+
+        ```
+        <th:block th:if="${#lists.isEmpty(books)}">
+        <p>No results found.</p>
+        </th:block>
+        ```
+
+    - ✅ 3. th:if & th:unless – Conditional Rendering       
+    `th:if`: renders element only if condition is true      
+    `th:unless:` renders element only if condition is false
+
+        ```
+        <p th:if="${user != null}">Welcome, user!</p>
+        ```
+
 ---
 
 ## Goals for Tomorrow
