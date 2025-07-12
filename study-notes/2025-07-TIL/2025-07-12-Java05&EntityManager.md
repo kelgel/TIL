@@ -10,8 +10,8 @@
 - ### 🔹 Java – Arrays (Chapter 5)   
   `Arrays are containers that hold multiple values of the same type.`  
   - Arrays have fixed size once initialized.  Can be initialized directly: String[] names = {"Alice", "Bob"}.
-  - Arrays are reference types in Java, not primitives.
-  📌 Key Concepts:
+  - Arrays are reference types in Java, not primitives.    
+  📌 Key Concepts:   
   - Array memory is allocated on the heap.
   - Array variables store references, not the actual values.
 
