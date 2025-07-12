@@ -2,7 +2,7 @@
 
 ## What I did today
 - Reviewed java Chapter 5 : Arrays
-- Studied EntityManager and EntityTransaction in Spring Boot / JPA for deeper understanding of persistence context and manual transaction control.
+- Studied EntityManager and EntityTransaction in Spring Boot / JPA 
 
 ---
 
@@ -16,19 +16,19 @@
   - Array variables store references, not the actual values.
 
 
-- ###🔹 Spring Boot – EntityManager & EntityTransaction
-🧩 EntityManager
-  - Central interface in JPA for interacting with the persistence context.
-  - Handles CRUD operations, queries, transaction control, and entity lifecycle.
-
-⚙️ EntityTransaction
-- Used to manually control transactions (when not using Spring @Transactional).
-- Spring Boot typically abstracts this using @Transactional.
-
-🧠 Persistence Context
-  - The first-level cache where managed entities are tracked.
-  - All changes to entities are synced to the DB at commit time.
-  - Prevents duplicate SQL by reusing loaded entities in the same transaction.
+- ### 🔹 Spring Boot – EntityManager & EntityTransaction
+  🧩 EntityManager
+    - Central interface in JPA for interacting with the persistence context.
+    - Handles CRUD operations, queries, transaction control, and entity lifecycle.
+  
+  ⚙️ EntityTransaction
+  - Used to manually control transactions (when not using Spring @Transactional).
+  - Spring Boot typically abstracts this using @Transactional.
+  
+  🧠 Persistence Context
+    - The first-level cache where managed entities are tracked.
+    - All changes to entities are synced to the DB at commit time.
+    - Prevents duplicate SQL by reusing loaded entities in the same transaction.
 
 ---
 
@@ -42,4 +42,4 @@
 
 - Practice writing JPA queries using EntityManager
 - Study Java methods and parameters (Chapter 6) for tomorrow’s review session.
-- 
+  
